@@ -1,0 +1,29 @@
+<div class="card-item col">
+  {%- if skill.redirect -%}
+  <a href="{{ skill.redirect }}">
+  {%- else -%}
+  <a href="{{ skill.url | relative_url }}">
+  {%- endif -%}
+    <div class="card hoverable">
+      <div class="row g-0">
+        {%- if skill.img -%}
+        <div class="card-img col-md-6">
+          {% include figure.html
+            path=skill.img
+            alt="skill thumbnail"
+            no-lightbox="true" %}
+        </div>
+        <div class="col-md-6">
+        {%- else -%}
+        <div class="col-md-12">
+        {%- endif -%}
+          <div class="card-body">
+            <h3 class="card-title">{{ skill.title }}</h3>
+            <h6 class="card-subtitle mb-2 text-muted">{{ skill.subtitle }} --- {{ skill.strength }}</h6>
+            <p class="card-text">{{ skill.description }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

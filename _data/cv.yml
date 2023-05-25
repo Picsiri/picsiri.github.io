@@ -1,0 +1,118 @@
+- title: General Information
+  type: map
+  contents:
+    - name: Full Name
+      value: Richárd Barabási
+    - name: Email
+      value: barabasi.richard@gmail.com
+    - name: Date of Birth
+      value: 1996.05.11.
+    - name: Languages
+      value: Hungarian (native), English (fluent), German (good)
+
+- title: Work Experience/Projects
+  type: time_table
+  contents:
+    - title: Project Leader
+      institution: Bosch Hungary, Budapest, Hungary
+      year: 2022.09. - 2022.12.
+      description:
+        - Conducted a small <a href="/projects/FEMM/">study in FEMM</a>. (Python, FEMM)
+        - Was too administrative to be enjoyable for me, I missed designing and making things.
+
+    - title: Mechatronics Engineer
+      institution: European Knowledge Centre, Budapest, Hungary
+      year: 2021.05. - 2022.09.
+      description:
+        - title: Lead the development of a mechatronics system for a <a href="/projects/AMR/">new product.</a>
+          contents:
+            - Designed and manufactured a prototype shell. (SOLIDWORKS Altium integration)
+            - Designed and manufactured a prototype PCB. (Altium Designer 4 layer)
+            - Developed and tested the software. (VSC, C++, STM32F4 & STM32L4)
+        - title: Designed and manufactured components for company's <a href="https://www.euroknows.com/hu/virofighter-intelligens-onjaro-uv-c-fertotlenito-robot/">main product</a>.
+          contents:
+            - Charging pistol with integrated display for the user about the charging process. (CAN, ATmega328P, C++, 60V DC-DC)
+            - Designed light tube driver resonant circuit. (LTSpice, Altium Designer)
+        - title: Managed 3D printers
+          contents:
+            - Managing the farm and print quotas.
+            - Maintenance of the printers.
+
+    - title: Mechatronics Engineer
+      institution: Sagax Communications, Budapest, Hungary
+      year: 2019.01. - 2021.05.
+      description:
+        - title: Major role in the development of a <a href="/projects/MUX-DEMUX/">new product.</a>
+          contents:
+            - Made system and mechanical drawings for documentation. (AutoCAD)
+            - Designed and manufactured embedded control electronics and created firmware. (Altium Designer, C++, ATmega)
+            - Was on site for the installation of the product.
+        - title: Development of <a href="/projects/synth/">synthesizer panels</a>.
+          contents:
+            - Design and manufacture of the panels from requirements. (Altium Designer)
+            - Board bring up and testing. (C++, STM32)
+            - RF evaluation of the panels. (Spectrum analyzer)
+        - Got <a href="/skills/electronics_analog/">familiar with RF terminology</a> and <a href="/skills/electronics_lab/">lab equipment</a>;
+
+    - title: Application Engineer
+      institution: Sagax Communications, Budapest, Hungary
+      year: 2018.05. - 2018.12.
+      description:
+        - Created an automated stress test and data collection setup. Evaluated the results and made a report. (Arduino, Excel, Bash)
+        - Learned <a href="/skills/soldering">hand soldering</a> and rework techniques.
+
+    - title: Engineering Assistant
+      institution: Morgan Advanced Materials, Budapest, Hungary
+      year: 2017.06. - 2017.09.
+      description:
+        - Created technical drawings for line workers from costumer requirements in <a href="https://www.autodesk.com/products/autocad/overview?term=1-YEAR&tab=subscription">AutoCAD</a>.
+
+- title: Education
+  type: time_table
+  contents:
+  
+    - title: Mechatronics Engineering BSc
+      institution: Budapest University of Technology and Economics, Budapest, Hungary
+      year: 2016 - 2020
+      description:
+        - Started as a mechanical engineering student, but switched to mechatronics after the first year.
+        - Started in the german language program, but lost the opportunity due to the change to mechatronics.
+        - Majored in manufacturing technology
+        - title: Mentionable courses aside from main mechatronics
+          contents:
+            - Material structure and technology of polymers
+            - Control theory
+            - Basics of AI technology
+            - Welding after school exercise
+
+    - title: High School
+      institution: German Nationality Highschool, Budapest, Hungary
+      year: 2011 - 2016
+      description:
+        - Really got into physics and math thanks to great teachers.
+        - Strong base in german language as 90% of the classes were taught in german.
+        - Also made an english language exam and got a B2.
+
+- title: Open Source Projects
+  type: time_table
+  contents:
+    - title: <a href="/projects/dimensions/">Nine Dimensions</a>
+      year: 2023.01. - now
+      description:
+        - An educational app made in <a href="https://flutter.dev/">Flutter</a> for learning about the quantities and units of measurement.
+        - Technically not open yet, but will be releasing as soon as I am confident enough in the quality.
+        - Will be released on Android, hopefully iOS and web as well.
+    #- title: <a href="/projects/AMR/">STM32 based spectrum analyzer</a>
+
+- title: Other Interests
+  type: nested_list
+  contents:
+    - title: <u>Hobbies:</u>
+      items:
+        - Creating things
+        - Drone piloting
+    - title: <u> Knowledge:</u>
+      items:
+        - I like to and am good at learn new things, especially if they are related to my engineering and technology.
+        - Was a huge fan of TV channels like Discovery and National Geographic when I was little and am subscribed to many informative youtube channels today.
+    - title: <a href="/horoscope/">Horoscope</a>

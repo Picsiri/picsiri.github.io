@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<!-- skill.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h6 class="post-subtitle">{{ page.subtitle }}</h6>
+    <p class="post-description">
+      {{ page.description }}
+      <br>
+      Field of profession: {{ page.field }}, skill strength: {{ page.strength }}
+    </p>
+    
+    <a href="#" onclick="goBack()">← Back</a>
+  </header>
+
+  <article>
+    <br>
+    {{ content }}
+  </article>
+
+  <footer class="post-footer">
+    <div class="text-center">
+      <h3>Return to skills:</h3>
+      <a href="{{ '/skills/' | relative_url}}">
+        <button type="button" class="btn">by time</button>
+      </a>
+
+      <a href="{{ '/skills/field/' | relative_url}}">
+        <button type="button" class="btn">by field</button>
+      </a>
+      
+      <a href="{{ '/skills/strength/' | relative_url}}">
+        <button type="button" class="btn">by strength</button>
+      </a>
+    </div>
+  </footer>
+
+</div>

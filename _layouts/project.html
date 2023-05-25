@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<!-- project.html -->
+<div class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <h6 class="post-subtitle">{{ page.subtitle }}</h6>
+    <p class="post-description">
+      {{ page.description }}
+      <br>
+      Professional level: {{ page.level }}, Project volume: {{ page.volume }}
+    </p>
+    
+    <a href="#" onclick="goBack()">← Back</a>
+  </header>
+
+  <article>
+    <br>
+    {{ content }}
+  </article>
+
+  <footer class="post-footer">
+    <div class="text-center">
+      <h3>Return to Projects:</h3>
+      <a href="{{ '/projects/' | relative_url}}">
+        <button type="button" class="btn">by time</button>
+      </a>
+
+      <a href="{{ '/projects/level/' | relative_url}}">
+        <button type="button" class="btn">by level</button>
+      </a>
+      
+      <a href="{{ '/projects/volume/' | relative_url}}">
+        <button type="button" class="btn">by volume</button>
+      </a>
+    </div>
+  </footer>
+
+</div>

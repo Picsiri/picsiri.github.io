@@ -1,0 +1,23 @@
+<!-- _includes/skills.html -->
+<div class="grid-sizer"></div>
+<div class="grid-item" category="{{ skill.field }}">
+  {% if skill.redirect -%}
+  <a href="{{ skill.redirect }}">
+    {%- else -%}
+    <a href="{{ skill.url | relative_url }}">
+      {%- endif %}
+      <div class="card hoverable">
+        {%- if skill.img %}
+        {%- include figure.html
+          path=skill.img
+          alt="skill thumbnail"
+          no-lightbox="true" -%}
+        {%- endif %}
+        <div class="card-body">
+          <h2 class="card-title">{{ skill.title }}</h2>
+          <h6 class="card-subtitle mb-2 text-muted">{{ skill.subtitle }}</h6>
+          <p class="card-text">{{ skill.description }}</p>
+        </div>
+      </div>
+    </a>
+</div>
